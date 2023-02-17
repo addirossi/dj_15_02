@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ prod.name }}</title>
+</head>
+<body>
+    <h4><a href="{% url 'list' %}">Вернуться в список товаров</a></h4>
+    <h5>Артикул: {{ prod.id }}</h5>
+    <h1>{{ prod.name }}</h1>
+    <p>{{ prod.description }}</p>
+    <h3>{{ prod.price }}</h3>
+</body>
+</html>
